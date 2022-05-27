@@ -1,1 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T01:18:57.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.1.2" etag="rW-3FMJSQebeSLf6QKz_" type="github"><diagram id="PCfnDLZK6HnBV_jckZQh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-27T02:30:35.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="D61B8a7Qfr63Lt6KKxER" version="18.1.2" type="github">
+  <diagram id="PCfnDLZK6HnBV_jckZQh" name="第 1 页">
+    <mxGraphModel dx="1473" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-1">
+          <mxGeometry x="45" y="80" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-6" value="执行实验" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;entryX=0.133;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="72RtoMBZ0ZQ-LGSJFhhX-1" target="72RtoMBZ0ZQ-LGSJFhhX-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-3" value="views.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-3">
+          <mxGeometry x="45" y="80" width="10" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-3">
+          <mxGeometry x="50" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-25" value="检查实验是否可执行" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-24" parent="72RtoMBZ0ZQ-LGSJFhhX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-3">
+          <mxGeometry x="50" y="497" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-71" value="检查实验执行中队列&lt;br&gt;和已完成队列" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-70" parent="72RtoMBZ0ZQ-LGSJFhhX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="477" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-9" value="scheduler.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-9">
+          <mxGeometry x="45" y="80" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-20" value="启动执行实验线程" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;" edge="1" parent="72RtoMBZ0ZQ-LGSJFhhX-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="205" as="sourcePoint" />
+            <mxPoint x="225" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-12" value="threads.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="45" y="80" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-30" value="任务状态变更为执行中&lt;br&gt;加入实验执行中队列" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-29" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="50" y="320" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-32" value="启动执行命令子线程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-31" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="50" y="477" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-40" value="重命名实验结果文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;exitX=0.952;exitY=0.611;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-39" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54.51999999999998" y="456.94000000000005" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="457" />
+              <mxPoint x="90" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="50" y="652" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-64" value="实验状态变更为已完成&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-63" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="632" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry x="50" y="736" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-68" value="实验从执行中队列移除&lt;br&gt;加入已完成队列" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Comic Sans MS;" edge="1" target="72RtoMBZ0ZQ-LGSJFhhX-67" parent="72RtoMBZ0ZQ-LGSJFhhX-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="716" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-15" value="LibCity" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-15">
+          <mxGeometry x="45" y="80" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-18" value="创建实验执行的定时任务" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.18;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="335" y="281" as="sourcePoint" />
+            <mxPoint x="506.8000000000002" y="280.70000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-21" value="使用 shell 命令执行实验" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;exitX=1.105;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="696.05" y="497.52" as="sourcePoint" />
+            <mxPoint x="866" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-26" value="实验执行结果 log" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Comic Sans MS;exitX=-0.267;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.181;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.3299999999997" y="532.8000000000001" as="sourcePoint" />
+            <mxPoint x="696.81" y="532.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-47" value="实验进行中" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Comic Sans MS;entryX=1;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.067;exitY=0.253;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325.6700000000001" y="305.62" as="sourcePoint" />
+            <mxPoint x="155" y="307.2400000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-52" value="evaluate.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-52">
+          <mxGeometry x="45" y="80" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-55" value="评价指标入库" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;exitX=1.2;exitY=0.851;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.246;entryY=0.852;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="697" y="630.54" as="sourcePoint" />
+            <mxPoint x="1042.54" y="631.0799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-56" value="task_show.py" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="100" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="72RtoMBZ0ZQ-LGSJFhhX-56">
+          <mxGeometry x="45" y="80" width="10" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-60" value="实验结果可视化" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;entryX=0.067;entryY=0.932;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.067;exitY=0.729;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="695.6700000000001" y="703.46" as="sourcePoint" />
+            <mxPoint x="1225.6699999999996" y="704.5600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-69" value="获取实验状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Comic Sans MS;entryX=0;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="72RtoMBZ0ZQ-LGSJFhhX-2" target="72RtoMBZ0ZQ-LGSJFhhX-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="320" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72RtoMBZ0ZQ-LGSJFhhX-72" value="返回实验状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Comic Sans MS;exitX=-0.097;exitY=0.713;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.966;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="72RtoMBZ0ZQ-LGSJFhhX-4" target="72RtoMBZ0ZQ-LGSJFhhX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="680" as="sourcePoint" />
+            <mxPoint x="160" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
